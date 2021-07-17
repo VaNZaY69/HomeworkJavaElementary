@@ -15,11 +15,6 @@ public class Task implements InterfaceTask {
     }
 
     @Override
-    public String getTask() {
-        return task;
-    }
-
-    @Override
     public String getState() {
         return state;
     }
