@@ -1,12 +1,10 @@
 package com.vanzay;
 
-public interface AbstractTask {
-
-    public void Task(String task);
+public interface InterfaceTask {
 
     public String setState(String state);
 
-    public String getTask(String task);
+    public String getTask();
 
-    public String getState(String state);
+    public String getState();
 }
