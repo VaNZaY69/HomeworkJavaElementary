@@ -1,6 +1,6 @@
 package com.vanzay;
 
-public class Task implements InterfaceTask {
+public class Task {
     public String task;
     protected String state = "uncompleted";
 
@@ -8,18 +8,14 @@ public class Task implements InterfaceTask {
         this.task = task;
     }
 
-    @Override
-    public String setState(String state) {
+    public void setState(String state) {
         this.state = state;
-        return state;
     }
 
-    @Override
     public String getState() {
         return state;
     }
 
-    @Override
     public String toString() {
         return task + ", " + state;
     }
